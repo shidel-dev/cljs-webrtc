@@ -1,4 +1,4 @@
-##CLJS-RTC
+##cljs-webrtc
 ClojureScript Library for doing real-time peer to peer communication in the browser!
 
 <img src="prof-x.png" width="300px"/>
