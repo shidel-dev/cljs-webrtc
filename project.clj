@@ -11,12 +11,15 @@
 
   :plugins [[lein-cljsbuild "1.0.4-SNAPSHOT"]]
 
+  :debug true
+
   :source-paths ["src"]
 
   :cljsbuild {
     :builds [{:id "cljs-webrtc"
               :source-paths ["src"]
               :compiler {
+                :preamble ["resources/adapter.js"]
                 :output-to "cljs_webrtc.js"
                 :output-dir "out"
                 :optimizations :none
