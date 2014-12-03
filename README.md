@@ -1,7 +1,7 @@
-##CLJS-RTC
+##cljs-webrtc
 ClojureScript Library for doing real-time peer to peer communication in the browser!
 
-![Alt text](prof-x.png)
+<img src="prof-x.png" width="300px"/>
 
 ####Goals
 1. Support edn across the network
